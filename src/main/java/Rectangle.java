@@ -24,10 +24,16 @@ public class Rectangle {
     }
 
     public double rectangleArea(double a, double b) {
+        if (a <= 0 || b <= 0) {
+            throw new MyException("Стороны прямоугольника не могут быть отрицательными!");
+        }
         return a * b;
     }
 
     public double rectanglePerimeter(double a, double b) {
-        return 2 * (a + b);
+        if (a <= 0 || b <= 0) {
+            throw new MyException("Стороны прямоугольника не могут быть отрицательными!");
+        }
+        return 2.0 * (a + b);
     }
 }
