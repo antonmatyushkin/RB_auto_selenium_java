@@ -1,0 +1,24 @@
+h2 {
+	color: blue;
+}
+
+ul li {
+	color: purple;
+}
+
+ol li {
+	color: green;
+}
+
+li.c1 {
+	color: fuchsia;
+}
+
+th {
+	background: gray; 
+}
+
+
+tr:nth-child(2n) {
+	background: silver;
+}
