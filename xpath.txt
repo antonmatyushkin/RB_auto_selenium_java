@@ -1,0 +1,26 @@
+Home work 31.10
+
+raiffeisen.ru
+1. //div[@class='informer__btns']//div[text()='Да']
+2. //a[text()='Карты']
+3. //span[text()='Интернет-Банк']
+4. //span[text()='Интернет-Банк']/..
+5. //div[@class='currency-block__container-wrapper']/div[2]/h2[2]
+6. //a[text()='Качество обслуживания']
+
+raiffeisen.ru/retail/cards/debit/new/request_auth/?card=CS0200-1411
+1. //input[@placeholder='Фамилия']
+2. //input[@placeholder='Имя']
+3. //input[@placeholder='Отчество']
+4. //input[@placeholder='Дата рождения']
+5. //input[@data-label='Согласие на обработку персональных данных']/../span  
+6. //*[@id='btn_submit']
+
+https://www.raiffeisen.ru/retail/consumerloans/calculator/
+1. //h1[contains(text(),'Кредитный калькулятор')]
+2. //div[@sysname='calc_type']/div[1]
+3. //div[@sysname='calc_type']/div[2]
+4. //div[contains(text(),'Клиент премиум')]/../span
+5. //div[contains(text(),'Укажите ваш доход за последний месяц')]
+6. //div[@sysname='insure']/div[2]
+7. //div[@class='b-calc-result__month-price main-payment']
