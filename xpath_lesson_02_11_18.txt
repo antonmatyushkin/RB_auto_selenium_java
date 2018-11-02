@@ -50,5 +50,6 @@ Yandex.ru:
 3. //span[text()='Beats']
 
 1. //div[@class='n-product-default-offer-multiple__header']/following::div[1]
+2. //label[@class='radio-button__radio radio-button__radio_side_right radio-button__radio_hovered_yes']
 
 1. //div[@class='modal__wrapper']
