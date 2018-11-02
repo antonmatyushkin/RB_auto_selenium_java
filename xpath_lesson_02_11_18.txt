@@ -1,0 +1,54 @@
+Raiffeisen.ru:
+1. //div[text()='Контактный телефон']
+2. //label[contains(text(),'Заказать звонок специалиста')]
+3. //div[text()='Принадлежность организации']/..
+4. //div[text()='Можно вводить только русские буквы, пробел и дефис']
+5. //div[text()='Это поле заполнено неверно']
+
+1. //div[@class='tips__links-content']//a[text()='Тарифы']
+2. //div[@class='tips__links-content']//a[text()='Общие условия поручительства']
+3. //div[@class='tips__links-content']//a[contains(text(),'Общие условия предоставления')]
+4. //div[@class='tips__links-content']//a[contains(text(),'Новые общие условия предоставления')]
+
+1. //div[@class='b-table__row']//div[text()='Доллар США']/following::div[1]
+2. //div[@class='b-table__row']//div[text()='Евро']/following::div[2]
+
+1. //li[contains(text(),'Годовые отчеты по МСФО')]
+
+1. //ul[@class='map-markers']//li[@class='bellorussia']
+2. //ul[@class='map-markers']//li[@class='ukraine']
+3. //ul[@class='map-markers']//li[@class='russia']
+
+1. //ul[@class='menu']//li[text()='Новости и акции']
+2. //div[@class='left_index']//div[@id='slider_default']
+
+1. //li[@class='region']//button
+2. //span[@class='title' and contains(text(),'Главхимчистка')]
+3. //span[@class='title' and contains(text(),'Ikos Resorts')]
+
+1. //div[@class='conditions__desc']//p[text()='129090, Москва, ул.Троицкая, д.17, стр. 1']
+2. //div[@class='conditions__desc']//p[text()='044525700']
+3. //div[@class='conditions__desc']//p[text()='7744000302']
+
+1. //div[@class='vacancies _active']
+
+1. //span[text()='Ваше имя']
+2. //span[text()='Фамилия']
+3. //span[text()='У меня нет резюме']
+
+
+
+Yandex.ru:
+1. //div[@class='news news_animation_yes i-bem news_js_inited']
+2. //input[@class='input__control input__input']
+3. //div[@class='weather']
+4. //div[@class='traffic']
+5. //div[@class='afisha']
+
+1. //input[@name='Цена от']
+2. //input[@name='Цена до']
+3. //span[text()='Beats']
+
+1. //div[@class='n-product-default-offer-multiple__header']/following::div[1]
+
+1. //div[@class='modal__wrapper']
